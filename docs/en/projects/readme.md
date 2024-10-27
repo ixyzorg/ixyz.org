@@ -1,3 +1,4 @@
 ---
-title: The webpage is currently not available in English.
+pageLayout: page
 ---
+The webpage is currently not available in English.

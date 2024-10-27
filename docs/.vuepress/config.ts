@@ -1,6 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+import { getDirname, path } from 'vuepress/utils'
 
 export default defineUserConfig({
   base: '/',
@@ -30,7 +31,7 @@ export default defineUserConfig({
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
        */
       // shiki: {
-           // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
+      // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
       //   languages: ['shell', 'bash', 'typescript', 'javascript'],
       // },
 
@@ -40,11 +41,11 @@ export default defineUserConfig({
        */
       markdownEnhance: {
         demo: true,
-      //   include: true,
-      //   chart: true,
-      //   echarts: true,
-      //   mermaid: true,
-      //   flowchart: true,
+        //   include: true,
+        //   chart: true,
+        //   echarts: true,
+        //   mermaid: true,
+        //   flowchart: true,
       },
 
       /**
@@ -85,4 +86,7 @@ export default defineUserConfig({
       // },
     },
   }),
+  alias: {
+     '@theme/Home/VPHomeBanner.vue': path.resolve(__dirname, './theme/components/CustomHomeBanner.vue'),
+  },
 })
