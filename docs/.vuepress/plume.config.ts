@@ -50,8 +50,8 @@ export default defineThemeConfig({
       notes: enNotes,
     },
   },
-  footer:{
-    message:'',
+  footer: {
+    message: '',
     copyright: 'Copyright © 2022-present IXYZ',
-  }
+  },
 })
