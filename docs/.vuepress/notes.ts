@@ -17,7 +17,6 @@ const zhMemoNote = defineNoteConfig({
 const zhWebsiteNavigateNote = defineNoteConfig({
   dir: 'website-navigate',
   link: 'website-navigate',
-  sidebar: 'auto',
 })
 
 export const zhNotes = defineNotesConfig({

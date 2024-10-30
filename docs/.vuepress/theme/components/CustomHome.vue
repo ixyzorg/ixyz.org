@@ -82,8 +82,8 @@ const postListRecent = computed(() => {
   line-height: 2rem;
   border-radius: 2rem;
   font-weight: 600;
-  margin: 0 auto;
-  margin-bottom: 2rem;
+  margin: 1rem auto;
+  margin-bottom: 4rem;
   background-color: var(--vp-c-brand-1);
   cursor: pointer;
   &:hover {
