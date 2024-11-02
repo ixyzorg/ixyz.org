@@ -22,69 +22,50 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   theme: plumeTheme({
-    // 添加您的部署域名
-    // hostname: 'https://your_site_url',
+    hostname: 'https://ixyz.org',
     blog: {
       include: ['前端/**/*.md'],
     },
     plugins: {
-      /**
-       * Shiki 代码高亮
-       * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
-       */
-      // shiki: {
-      // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-      //   languages: ['shell', 'bash', 'typescript', 'javascript'],
-      // },
-      /**
-       * markdown enhance
-       * @see https://theme-plume.vuejs.press/config/plugins/markdown-enhance/
-       */
-      markdownEnhance: {
-        demo: true,
-        //   include: true,
-        //   chart: true,
-        //   echarts: true,
-        //   mermaid: true,
-        //   flowchart: true,
+      shiki: {
+        languages: ['typescript', 'javascript', 'html', 'css', 'shell', 'bash'],
+        theme: { light: 'night-owl', dark: 'night-owl' },
       },
-
-      /**
-       *  markdown power
-       * @see https://theme-plume.vuejs.press/config/plugin/markdown-power/
-       */
-      // markdownPower: {
-      //   pdf: true,
-      //   caniuse: true,
-      //   plot: true,
-      //   bilibili: true,
-      //   youtube: true,
-      //   icons: true,
-      //   codepen: true,
-      //   replit: true,
-      //   codeSandbox: true,
-      //   jsfiddle: true,
-      //   repl: {
-      //     go: true,
-      //     rust: true,
-      //     kotlin: true,
-      //   },
-      // },
-
+      markdownEnhance: {
+        align: true, // 对齐容器
+        mark: true, // 标记语法
+        tasklist: true, // 任务列表语法
+        attrs: true, // 属性语法
+        sup: true, // 上标语法
+        sub: true, // 下标语法
+        footnote: true, // 注脚语法
+        include: true, // Markdown 导入支持
+        chart: true, // 图表支持
+        echarts: true, // ECharts 图表支持
+        flowchart: true, // 流程图支持
+        markmap: true, // Markmap 图表支持
+        kotlinPlayground: true, // Kotlin 交互演示
+        vuePlayground: true, // Vue 交互演示
+        sandpack: true, // sandpack 交互演示
+        demo: true, // 代码案例
+      },
+      docsearch:{
+        appId:'DQLBVJ2169',
+        apiKey:'0bf272a3d308773b3e7b5fa72b68af03',
+        indexName:'IXYZ',
+      },
       /**
        * 评论 comments
        * @see https://theme-plume.vuejs.press/guide/features/comments/
        */
-      // comment: {
-      //   provider: '', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-      //   comment: true,
-      //   repo: '',
-      //   repoId: '',
-      //   categoryId: '',
-      //   mapping: 'pathname',
-      //   reactionsEnabled: true,
-      //   inputPosition: 'top',
-      // },
+      comment: {
+        provider: 'Giscus',
+        comment: true,
+        repo: 'ixyzorg/ixyz.org', 
+        repoId: 'R_kgDONEsDCg', 
+        category: 'Announcements', 
+        categoryId: 'DIC_kwDONEsDCs4Cj6j0', 
+      },
     },
   }),
   alias: {
