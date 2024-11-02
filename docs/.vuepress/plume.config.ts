@@ -10,7 +10,6 @@ export default defineThemeConfig({
   // your git repo url
   docsRepo: '',
   docsDir: 'docs',
-
   appearance: true,
 
   social: [

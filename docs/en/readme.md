@@ -4,12 +4,15 @@ externalLinkIcon: false
 config:
   - type: banner
     full: true
-    backgroundImage: 'https://picsum.photos/1920/1080'
+    banner: '/bg.jpg'
     bannerMask:
       light: 0.1
       dark: 0.3
     hero:
       name: 'IXYZ'
-      tagline: 'Front-end Developer' 
-      text: 'Halo there, I’m IXYZ, a frontend developer. Proficient in the spelling of JavaScript, TypeScript, Vue, React, UniApp, and so on. Alright, getting to the point—I’m skilled in frontend frameworks like Vue 3 and Vue 2, and their surrounding ecosystem, including Vuex, Pinia state management libraries, Vue Router, and various UI component libraries. I also have knowledge of React and its related tools, UniApp for building mini-programs, Nuxt for SSR (server-side rendering), and Nest for backend service setup.'
+      tagline: 'Front-end Developer'
+      text: 'Halo there.'
+      intro: 'I’m IXYZ, a front-end developer. I’m proficient in spelling terms like JavaScript, TypeScript, Vue, React, and UniApp. To get straight to the point, I excel in Vue 3 and Vue 2 frameworks, along with their ecosystems, including Vuex, Pinia for state management, Vue Router, and UI component libraries. I’m also familiar with React and its related tools, UniApp for building mini-programs, Nuxt for SSR (server-side rendering), Nest for backend development, and Docker for containerized deployment.'
+  - type: CustomHome
+    repo: ['ixyzorg/large-screen-visualization', 'ixyzorg/ixyz-nrm']
 ---

@@ -3,6 +3,7 @@ title:  开源项目
 pageLayout: doc
 readingTime: false
 lastUpdated: false
+comments: false
 ---
 <script setup>
 import NpmBadgeGroup from 'vuepress-theme-plume/features/NpmBadgeGroup.vue'
