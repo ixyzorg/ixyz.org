@@ -3,5 +3,13 @@ title: 前端面试
 permalink: /bag/interview/
 readingTime: false
 lastUpdated: false
-comments: false
+createTime: 2024/10/30 22:31:23
 ---
+
+## 说明:
+
+此页面用来收集、整理、分享前端面试题.与其说面试题,不如说八股文.当然,这个不完全对,个人认为面试题体现一个人的基本功,不要去照本宣科的背诵答案,而是要真正的去理解掌握其内在原理,真正做到不仅知其然,还要知其所以然.
+
+::: tip
+欢迎你通过下方的comment来增加完善、填充内容,我将不胜感激.
+:::
