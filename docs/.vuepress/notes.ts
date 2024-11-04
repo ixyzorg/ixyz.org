@@ -11,7 +11,6 @@ const zhInterviewNote = defineNoteConfig({
 const zhMemoNote = defineNoteConfig({
   dir: 'memo',
   link: 'memo',
-  sidebar: 'auto',
 })
 
 const zhWebsiteNavigateNote = defineNoteConfig({

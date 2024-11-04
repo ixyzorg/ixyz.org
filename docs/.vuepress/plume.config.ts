@@ -53,4 +53,5 @@ export default defineThemeConfig({
     message: '',
     copyright: 'Copyright © 2022-present IXYZ',
   },
+  createTime:'only-blog'
 })
