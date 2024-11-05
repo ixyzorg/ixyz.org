@@ -95,11 +95,37 @@ createTime: 2024/11/04 20:53:55
   <LinkCard icon="https://lesscss.org/public/img/less_logo.png" title="less" href="https://lesscss.org/" />
   <LinkCard icon="https://stylus-lang.com/logo.svg" title="stylus" href="https://stylus-lang.com/" />
   <LinkCard icon="skill-icons:tailwindcss-dark" title="tailwind css" href="https://tailwindcss.com/" />
-  <LinkCard icon="flowbite:css-solid" title="animate css" href="https://animate.style" />
-  <LinkCard icon="flowbite:css-solid" title="好看的css样式" href="https://navnav.co" />
-  <LinkCard icon="flowbite:css-solid" title="css loader" href="https://css-loaders.com" />
-  <LinkCard icon="flowbite:css-solid" title="好看的css样式2" href="https://csscoco.com/inspiration/#/" />
+  <LinkCard icon="flowbite:css-solid" title="animate css" href="https://animate.style" /> 
+  <LinkCard icon="flowbite:css-solid" title="css loader design" href="https://css-loaders.com" />
   <LinkCard icon="flowbite:css-solid" title="web安全色" href="https://www.bootcss.com/p/websafecolors/" />
   <LinkCard icon="flowbite:css-solid" title="svg波浪" href="https://svgwave.in/" />
-  <LinkCard icon="flowbite:css-solid" title="Css Timing Fun" href="https://easings.net/zh-cn#" />  
+  <LinkCard icon="flowbite:css-solid" title="Css Timing Fun" href="https://easings.net/zh-cn#" />
+  <LinkCard icon="flowbite:css-solid" title="Css 灵感" href="https://csscoco.com/inspiration/#/" />
+  <LinkCard icon="flowbite:css-solid" title="CSS Tricks" href="https://qishaoxuan.github.io/css_tricks/" />
+</CardGrid>
+
+### Js
+<CardGrid>
+  <LinkCard  title="dayjs" href="https://day.js.org/" />
+  <LinkCard  title="axios" href="https://www.axios-http.cn/" />
+  <LinkCard  title="lodash" href="https://lodash.com/" />
+  <LinkCard  title="CountUp" href="https://github.com/inorganik/CountUp.js" />
+
+</CardGrid>
+
+
+### VPS
+<CardGrid>
+  <LinkCard  title="去程路由节点追踪" href="https://www.itdog.cn/" />
+  <LinkCard  title="双ISP信息查询" href="https://ipinfo.io/" />
+  <LinkCard  title="IP欺诈性查询" href="https://scamalytics.com/" />
+  <LinkCard  title="IP信息查询" href="https://ping0.cc/" />
+</CardGrid>
+
+### 辅助
+<CardGrid>
+  <LinkCard  title="Can I Use" href="https://caniuse.com/" />
+  <LinkCard  title="MDN" href="https://developer.mozilla.org/zh-CN/" />
+  <LinkCard  title="excalidraw绘图" description="类似draw io" href="https://excalidraw.com/" />
+  <LinkCard  title="Lorem Picsum"  description="get a random image"  href="https://picsum.photos/" />
 </CardGrid>
